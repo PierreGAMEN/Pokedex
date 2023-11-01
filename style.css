@@ -1,0 +1,314 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pokedex {
+    width: 600px;
+    height: 800px;
+    background: rgb(190, 48, 48) ;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+h1 {
+    color: yellow;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-text-stroke: 0.4px rgba(0, 0, 255, 0.445);
+                                               
+}
+
+.headerPoke {
+    width: 100%;
+    box-shadow: 2px 2px 2px black;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.rond1 {
+    width: 80px;
+    height: 80px;
+    background: rgba(58, 58, 255, 0.801);
+    margin-left: 20px;
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.reflet{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px;
+    background: rgb(146, 146, 255);
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.rond2 {
+    width: 30px;
+    height: 30px;
+    background: rgba(104, 255, 58, 0.801);
+    margin-left: 20px;
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.reflet2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px 50px 50px 50px;
+    background: rgba(202, 250, 188, 0.801);
+    margin-left: 3px;
+    margin-top: 3px;
+
+}
+
+.son {
+    width: 7px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px 10px 10px;
+    transform: rotate(20deg);
+    box-shadow: 1px 1px 1px grey;
+    
+
+}
+
+.globalson {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.globalrond {
+    display: flex;
+    width: 400px;
+    justify-content: start;
+}
+
+.screen {
+    width: 80%;
+    background: rgb(3, 66, 3);
+    height: 400px;
+}
+
+.headerscreen {
+    background: rgb(163, 70, 250);
+    margin: 1px;
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+}
+
+.info {
+    border-radius: 0px 20px 20px 0px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(192, 84, 235);
+}
+
+.texteinfo{
+font-size: 23px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.retour {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.bouton {
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    color : white;
+    margin-right: 10px;
+    border: 2px solid white;
+    width: 20px;
+    text-align: center;
+}
+
+.texte{
+    color: white
+}
+
+.partiegauche {
+    background: rgb(119, 197, 116);
+    width: 80%;
+    height: 99%;
+    margin-left: 1px;
+    border-radius: 0px 10px 10px 00px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid rgb(40, 107, 37);;
+}
+
+.Numero {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+    text-shadow: 1px 1px 1px black;
+}
+
+img {
+    width: 80%;
+    height: 40%;
+    border-radius: 20px;
+}
+
+.PokeName {
+    color: white;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.niv, .lieu {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.pokeball {
+    width: 20%;
+    height: 40px;
+
+}
+
+.lvl {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top : 10px ;
+}
+
+.partiebassescreen {
+    display: flex;
+    width: 100%;
+    height: 85%;
+    align-items: center;
+}
+
+.categorie {
+    width: 50%;
+    background: rgb(129, 137, 255);
+    color: white;
+    text-align: center;
+    margin: 1px;
+    border-radius: 0px 20px 20px 0px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    height: 10%;
+    padding: 2px;
+    
+}
+
+.titre{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    width: 100%;
+    background: rgb(119, 197, 116);
+    font-size: 20px;
+    height: 10%;
+    padding: 2px;
+    width: 98.5%;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.explain, .explaintype {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 2px;
+    width: 98.5%;
+    border-radius: 2px 2px 2px 2px;
+
+}
+
+.explaintype {
+    display: flex;
+    align-items: center;
+}
+
+.typos {
+    background: yellow;
+    color:black; 
+    box-shadow: 2px 2px 2px black;
+    margin: 2px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.joystick {
+    width: 70%;
+    height: 20%;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.croixgauche, .croixdroit {
+    width: 48px;
+    height: 40px;
+    background-color: black;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+.croixhaut {
+
+    width: 40px;
+    height: 150px;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+.croixgauche{
+    border-radius: 10px 0px 0px 10px ;
+}
+
+.croixdroit{
+    border-radius: 0px 10px 10px 0px ;
+}
+
+
+.croix {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.A, .B {
+    border-radius: 50px;
+    background: black;
+    color: white;
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px grey;
+    margin: 10px;
+}
