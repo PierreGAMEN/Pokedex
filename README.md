@@ -9,3 +9,7 @@ This project is a simple HTML/CSS implementation of a Pokédex, inspired by the 
 
 ## Usage
 To view the Pokédex, simply open the `index.html` file in your web browser. You'll be presented with a visual representation of the Pokédex interface, showcasing a selection of Pokémon cards.
+
+## Screenshot
+
+![Screenshot 1](./previewPokedex.png)
